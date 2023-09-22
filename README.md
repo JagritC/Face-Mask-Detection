@@ -11,7 +11,6 @@ The dataset for this project is sourced from Kaggle, and YOLOv5 is utilized for 
 ![Screenshot%202023-09-18%20at%204.32.00%20PM.png](attachment:Screenshot%202023-09-18%20at%204.32.00%20PM.png)
 ![Example Training Dataset Image](attachment:images/)
 ![Example Training Dataset Image](./images/Screenshot%2023-09-21%at%3.40.20%PM.png)
-
 ## Dataset
 The dataset consists of images segregated into three categories: 'Correct', 'Incorrect', and 'No Mask'. The distribution of these categories is visualized below:
 
