@@ -16,7 +16,7 @@ The dataset for this project is sourced from Kaggle, and YOLOv5 is utilized for 
 
 The dataset consists of images segregated into three categories: 'Correct', 'Incorrect', and 'No Mask'. The distribution of these categories is visualized below:
 
-![Dataset Histogram](link-to-histogram-image)
+![Dataset image](<images/Screenshot 2023-09-21 at 3.40.20 PM.png>)
 
 ## Model Training
 
@@ -32,15 +32,13 @@ The YOLOv5 model is used for object identification, optimized with a custom YAML
      - Object Loss (obj_loss)
      - Classification Loss (cls_loss)
 
-![Metrics Graphs](link-to-graphs)
+![Alt text](<images/Screenshot 2023-09-21 at 3.41.13 PM.png>)
 
 ### Validation Losses
 
 - Validation Box Loss
 - Validation Object Loss
-- Validation Classification Loss
-
-![Validation Losses Graphs](link-to-validation-losses-graphs)
+- Validation Classification Loss ![Validation Losses Graphs](<images/Screenshot 2023-09-21 at 3.41.31 PM.png>)
 
 ### Evaluation Metrics
 
@@ -49,7 +47,7 @@ The YOLOv5 model is used for object identification, optimized with a custom YAML
 - mAP at IoU=0.5
 - mAP at IoU=0.5:0.95
 
-![Evaluation Metrics Graphs](link-to-evaluation-metrics-graphs)
+![Evaluation Metrics Graphs](<images/Screenshot 2023-09-21 at 3.41.19 PM.png>)
 
 ### Learning Rate Graphs
 
@@ -57,13 +55,13 @@ The YOLOv5 model is used for object identification, optimized with a custom YAML
 - lr2
 - lr3
 
-![Learning Rate Graphs](link-to-learning-rate-graphs)
+![Learning Rate Graphs](<images/Screenshot 2023-09-21 at 3.42.05 PM.png>)
 
-## Testing
+## Verifying
 
 A set of randomly picked images were used for testing the model. Results are showcased before and after the object detection task.
 
-![Testing Images](link-to-testing-images)
+![Alt text](<images/Screenshot 2023-09-21 at 3.42.56 PM.png>) ![Alt text](<images/Screenshot 2023-09-21 at 3.43.12 PM.png>) ![Alt text](<images/Screenshot 2023-09-21 at 3.43.21 PM.png>) ![Alt text](<images/Screenshot 2023-09-21 at 3.43.32 PM.png>) ![Alt text](<images/Screenshot 2023-09-21 at 3.43.48 PM.png>)
 
 ## Setup and Run
 
