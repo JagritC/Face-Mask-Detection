@@ -67,21 +67,9 @@ A set of randomly picked images were used for testing the model. Results are sho
 
 1. Clone the repository
       ```
-      git clone [your-repository-link]
+      git clone JagritC/Face-Mask-Detection
       ```
-2. Install dependencies
-      ```
-      pip install -r requirements.txt
-      ```
-3. Run the Jupyter Notebook
+2. Run the Jupyter Notebook
       ```
       jupyter notebook Face_Mask_Detection.ipynb
       ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-Remember to replace the placeholders such as `link-to-your-example-image` with the actual URLs or relative paths of your images. This should provide a comprehensive view of your project, its functionality, and performance metrics.
